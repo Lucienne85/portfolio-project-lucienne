@@ -22,7 +22,7 @@ h2 {
   font-weight: 100;
 }
 
-a {
+.primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
   text-decoration: none;
@@ -37,6 +37,11 @@ a:hover {
   background-color: var(--primary-color);
   color: white;
   text-align: center;
+}
+
+.fa-home {
+  font-size: 25px;
+  color: var(--primary-color);
 }
 
 @media (max-width: 540px) {
