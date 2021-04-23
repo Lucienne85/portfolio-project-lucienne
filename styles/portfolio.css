@@ -21,7 +21,9 @@ h2 {
   font-size: 20px;
   font-weight: 100;
 }
-
+img {
+  width: 100%;
+}
 .primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
@@ -44,6 +46,9 @@ a:hover {
   color: var(--primary-color);
 }
 
+.topic-illustrations {
+  margin-top: 30px;
+}
 @media (max-width: 540px) {
   h1 {
     font-size: 45px;
