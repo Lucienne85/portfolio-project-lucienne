@@ -16,14 +16,12 @@ h1 {
   font-size: 68px;
 }
 
-h2 {
+.homepage-hero h2 {
   margin: 15px 0 60px 0;
   font-size: 20px;
   font-weight: 100;
 }
-img {
-  width: 100%;
-}
+
 .primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
@@ -45,10 +43,21 @@ a:hover {
   font-size: 25px;
   color: var(--primary-color);
 }
-
-.topic-illustrations {
-  margin-top: 30px;
+.subject-header {
+  font-family: var(--heading-font);
+  font-size: 26px;
 }
+
+.homepage-sections {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.section-item {
+  padding: 0 30px;
+  text-align: center;
+}
+
 @media (max-width: 540px) {
   h1 {
     font-size: 45px;
@@ -57,10 +66,3 @@ a:hover {
 
 /*font-family: 'Over the Rainbow', cursive;
 font-family: 'Rambla', sans-serif; */
-
-/* background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%); 
-background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-*/
