@@ -7,8 +7,17 @@
   --body-font: "Poppins", sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: var(--body-font);
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 h1 {
@@ -77,18 +86,39 @@ a:hover {
   max-width: 300px;
 }
 
-.section-1,
-.section-2 {
-  padding: 0px;
-  margin: 0px;
+.parallax-wrapper {
+  width: 100vw;
+  height: 80vh;
+  padding-top: 20vh;
   box-sizing: border-box;
+  transform-style: preserve-3d;
 }
 
-.section-1 {
-  height: 400px;
+.parallax-wrapper::before {
+  content: "";
+  width: 100vw;
+  height: 80vh;
+  top: 0;
+  left: 0;
   background-image: url(/images/IMG_0911\ copy.jpg);
-  background-attachment: fixed;
   background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+
+.regular-wrapper {
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  background: white;
 }
 
 @media (max-width: 540px) {
