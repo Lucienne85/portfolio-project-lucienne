@@ -20,25 +20,22 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   height: 100%;
   z-index: 0;
 }
 
 .image img {
-  width: auto;
-  max-height: 100%;
-  margin: 0 auto;
+  width: 100%;
   display: block;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 53%;
   left: 50%;
   position: relative;
 }
 
 .panels {
   position: relative;
-  min-height: 100%;
   width: 100%;
   z-index: 1000;
 }
@@ -48,16 +45,14 @@ html {
   top: 0;
   z-index: -99;
   background: #eee;
-  padding-top: 56px;
+  padding-top: 34px;
 }
 
 .scrollable-panel {
-  margin-top: 40%;
+  margin-top: 35%;
   margin-bottom: 56px;
 }
 
 .content {
-  margin: 0 auto;
-  width: 100%;
   background: white;
 }
