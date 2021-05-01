@@ -11,10 +11,6 @@ body {
   font-family: var(--body-font);
 }
 
-h1 {
-  font-family: var(--heading-font);
-}
-
 .primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
