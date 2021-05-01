@@ -129,3 +129,6 @@ h2 {
   border-radius: 5px;
   border: 1px solid var(--light-color);
 }
+.space-maker {
+  height: 50px;
+}
