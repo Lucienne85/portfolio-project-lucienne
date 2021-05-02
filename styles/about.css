@@ -129,6 +129,19 @@ h2 {
   border-radius: 5px;
   border: 1px solid var(--light-color);
 }
+
+.caption-title {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.caption-text {
+  font-size: 13px;
+  font-weight: 200;
+  margin: 0;
+}
+
 .space-maker {
   height: 50px;
 }
