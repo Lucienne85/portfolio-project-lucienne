@@ -160,6 +160,10 @@ h2 {
   .about-container {
     padding: 0 20px;
   }
+
+  .split-line {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 590px) {
