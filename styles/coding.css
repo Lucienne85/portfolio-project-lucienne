@@ -51,4 +51,8 @@
   .hero-section h1 {
     font-size: 44px;
   }
+
+  .hero-section h2 {
+    font-size: 20px;
+  }
 }
