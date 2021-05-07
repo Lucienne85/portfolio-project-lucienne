@@ -1,19 +1,7 @@
-h1 {
-  font-family: var(--heading-font);
-  font-size: 68px;
-}
-
-.homepage-hero h2 {
+.hero-section h2 {
   margin: 15px 0 60px 0;
   font-size: 20px;
   font-weight: 100;
-}
-
-.homepage-hero {
-  padding: 80px 0;
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
 }
 
 .subject-header {
@@ -37,12 +25,6 @@ h1 {
 }
 .section-image {
   max-width: 300px;
-}
-
-@media (max-width: 540px) {
-  h1 {
-    font-size: 45px;
-  }
 }
 
 @media (max-width: 767px) {

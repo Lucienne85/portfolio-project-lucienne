@@ -11,17 +11,32 @@ body {
   font-family: var(--body-font);
 }
 
+.hero-section {
+  padding: 80px 0;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-family: var(--heading-font);
+  font-size: 68px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
-  text-decoration: none;
+  text-transform: uppercase;
   border-radius: 4px;
   color: black;
 }
 
 .secondary-button {
   padding: 6px 15px;
-  text-decoration: none;
   font-size: 13px;
   font-weight: 300;
   color: black;
@@ -36,6 +51,12 @@ a:hover {
 .fa-home {
   font-size: 25px;
   color: var(--primary-color);
+}
+
+@media (max-width: 540px) {
+  .hero-section h1 {
+    font-size: 45px;
+  }
 }
 
 /*font-family: 'Over the Rainbow', cursive;

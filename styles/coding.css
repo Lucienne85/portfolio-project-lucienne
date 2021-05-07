@@ -1,0 +1,42 @@
+.hero-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  padding-left: 35px;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+}
+
+.hero-section h2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--secondary-color);
+  position: relative;
+  right: 140px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 25px 0 60px 0;
+}
+
+.shecodes-foundation {
+  color: var(--secondary-color);
+}
+
+.shecodes-foundation:hover {
+  color: var(--light-color);
+}
+
+@media (max-width: 991px) {
+  .hero-text {
+    padding-left: 12px;
+  }
+}
