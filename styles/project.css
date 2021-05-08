@@ -54,6 +54,17 @@ a:hover {
   color: var(--primary-color);
 }
 
+.subject-header {
+  font-family: var(--heading-font);
+  font-size: 26px;
+}
+
+.standard-paragraph {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
 .split-line {
   width: 50%;
   margin: 0 auto;
