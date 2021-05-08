@@ -35,9 +35,19 @@
   color: var(--light-color);
 }
 
+.project {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.second-project {
+  text-align: right;
+}
+
 .skill-overview {
   text-align: center;
   color: var(--dark-color);
+  padding-top: 5px;
 }
 
 .skill-row {
