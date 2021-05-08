@@ -53,6 +53,13 @@ a:hover {
   color: var(--primary-color);
 }
 
+.split-line {
+  width: 50%;
+  margin: 0 auto;
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+
 @media (max-width: 540px) {
   .hero-section h1 {
     font-size: 45px;

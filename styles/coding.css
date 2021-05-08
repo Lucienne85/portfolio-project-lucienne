@@ -35,6 +35,35 @@
   color: var(--light-color);
 }
 
+.skill-overview {
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.skill-row {
+  margin-top: 15px;
+}
+
+.split-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.logo {
+  max-width: 45px;
+}
+
+.skill-text {
+  display: block;
+  font-size: 12px;
+  font-weight: 200;
+}
+
 @media (max-width: 991px) {
   .hero-text {
     padding-left: 12px;
