@@ -74,12 +74,20 @@
 }
 
 .project-image {
-  max-width: 400px;
+  max-width: 420px;
 }
 
 @media (max-width: 991px) {
   .hero-text {
     padding-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
   }
 }
 
