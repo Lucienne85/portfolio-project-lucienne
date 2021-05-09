@@ -69,12 +69,17 @@
   margin-bottom: 50px;
 }
 
-.second-project {
-  text-align: right;
-}
-
 .project-image {
   max-width: 420px;
+}
+
+.project-description-right {
+  padding-left: 20px;
+}
+
+.project-description-left {
+  padding-right: 20px;
+  text-align: right;
 }
 
 @media (max-width: 991px) {
@@ -85,9 +90,17 @@
 
 @media (max-width: 767px) {
   .project {
-    text-align: center;
     margin-top: 20px;
-    padding: 0;
+  }
+
+  .project-description-right {
+    text-align: center;
+    padding-left: 12px;
+  }
+
+  .project-description-left {
+    text-align: center;
+    padding-right: 12px;
   }
 }
 
