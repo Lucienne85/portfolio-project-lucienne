@@ -1,0 +1,13 @@
+.contact-image {
+  text-align: right;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  max-width: 300px;
+  padding-right: 30px;
+}
+
+.contact-info {
+  padding-left: 30px;
+}
