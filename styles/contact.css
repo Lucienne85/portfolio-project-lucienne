@@ -1,13 +1,32 @@
 .contact-image {
   text-align: right;
+  padding-right: 50px;
 }
 
 .profile-picture {
   border-radius: 50%;
   max-width: 300px;
-  padding-right: 30px;
+  background-color: var(--light-color);
 }
 
 .contact-info {
-  padding-left: 30px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.contact-icon {
+  color: var(--secondary-color);
+}
+
+.contact-info p {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+a {
+  color: var(--primary-color);
 }
