@@ -117,12 +117,24 @@ footer .footer-icons a:hover {
   border: 1px solid var(--light-color);
 }
 
-footer a {
+.footer-github {
   color: var(--light-color);
 }
 
-footer a:hover {
+.footer-github:hover {
   color: var(--secondary-color);
+}
+
+@media (max-width: 590px) {
+  footer {
+    font-size: 12px;
+  }
+
+  footer .footer-icons a {
+    margin: 3px;
+    font-size: 18px;
+    padding: 4px 8px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -131,5 +143,13 @@ footer a:hover {
   }
 }
 
-/*font-family: 'Over the Rainbow', cursive;
-font-family: 'Rambla', sans-serif; */
+@media (max-width: 440px) {
+  .footer-year-name,
+  .footer-github {
+    display: none;
+  }
+
+  .footer-icons {
+    margin: 0 auto;
+  }
+}
