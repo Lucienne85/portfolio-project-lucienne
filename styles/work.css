@@ -1,0 +1,44 @@
+.hero-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  padding-left: 35px;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+}
+
+.hero-section h2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--secondary-color);
+  position: relative;
+  right: 140px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 25px 0 60px 0;
+}
+
+@media (max-width: 991px) {
+  .hero-text {
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 475px) {
+  .hero-section h1 {
+    font-size: 44px;
+  }
+
+  .hero-section h2 {
+    right: 75px;
+  }
+}
