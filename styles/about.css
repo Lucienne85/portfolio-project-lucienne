@@ -74,7 +74,6 @@ h2 {
   font-weight: 400;
   font-size: 28px;
   padding-top: 25px;
-  text-align: left;
   color: var(--secondary-color);
 }
 
@@ -88,7 +87,6 @@ h2 {
 .intro-text,
 .about-text {
   text-align: center;
-  margin: 0 auto;
   max-width: 575px;
 }
 
