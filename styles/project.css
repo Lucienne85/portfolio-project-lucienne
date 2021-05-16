@@ -11,6 +11,22 @@ body {
   font-family: var(--body-font);
 }
 
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 40px;
+}
+
+.nav-link {
+  font-weight: 200;
+  margin-left: 12px;
+}
+
+.active,
+.nav-link:hover {
+  font-weight: 400;
+  color: var(--primary-color) !important;
+}
+
 .hero-section {
   padding: 80px 0;
   background-color: var(--primary-color);
