@@ -45,6 +45,31 @@
   max-width: 750px;
 }
 
+.work-company {
+  border: 1px solid darkgray;
+  margin: 5px;
+  padding: 0;
+}
+
+.company-title {
+  background: #e6e6e6;
+}
+.company-name {
+  display: inline;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.company-logo {
+  width: 40px;
+  margin: 5px 8px;
+}
+
+.accordion-button {
+  font-size: 15px;
+  font-weight: 200;
+}
+
 @media (max-width: 991px) {
   .hero-text {
     padding-left: 12px;
