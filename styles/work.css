@@ -58,13 +58,27 @@
 .company-title {
   background: #e6e6e6;
 }
+
+.company-text,
+.company-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .company-name {
   display: inline;
   font-size: 16px;
   font-weight: 300;
 }
 
-.company-logo {
+.years {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 200;
+  display: block;
+}
+
+.logo {
   width: 40px;
   margin: 5px 10px 5px 20px;
 }
