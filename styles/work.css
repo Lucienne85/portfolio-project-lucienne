@@ -92,6 +92,19 @@
   .hero-text {
     padding-left: 12px;
   }
+  .middle {
+    margin: 0;
+  }
+
+  .work-company {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .work-intro {
+    margin: 0 10px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -101,5 +114,11 @@
 
   .hero-section h2 {
     right: 75px;
+  }
+}
+
+@media (max-width: 326px) {
+  .linkedin-button {
+    display: none;
   }
 }
