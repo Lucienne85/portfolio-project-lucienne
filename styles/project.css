@@ -100,18 +100,22 @@ footer {
   line-height: 38px;
 }
 
-footer .footer-icons a {
+.footer-icons a {
   margin: 0 10px;
   color: var(--primary-color);
   background: var(--light-color);
-  padding: 8px 12px;
+  padding: 8px 13px;
   border: 1px solid var(--primary-color);
   border-radius: 50%;
   font-size: 22px;
   transition: all 150ms ease-in-out;
 }
 
-footer .footer-icons a:hover {
+.footer-icons .test {
+  padding: 8px 14px;
+}
+
+.footer-icons a:hover {
   color: var(--light-color);
   background: var(--primary-color);
   border: 1px solid var(--light-color);
