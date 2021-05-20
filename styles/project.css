@@ -111,7 +111,7 @@ footer {
   transition: all 150ms ease-in-out;
 }
 
-.footer-icons .test {
+.footer-icons .linked-in {
   padding: 8px 14px;
 }
 
@@ -134,10 +134,14 @@ footer {
     font-size: 12px;
   }
 
-  footer .footer-icons a {
+  .footer-icons a {
     margin: 3px;
     font-size: 18px;
     padding: 4px 8px;
+  }
+
+  .footer-icons .linked-in {
+    padding: 4px 9px;
   }
 }
 
