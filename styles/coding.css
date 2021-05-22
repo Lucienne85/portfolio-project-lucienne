@@ -27,17 +27,17 @@
   margin: 25px 0 60px 0;
 }
 
-.shecodes-foundation {
+.shecodes {
   color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
 }
 
-.shecodes-foundation:hover {
+.shecodes:hover {
   color: var(--light-color);
 }
 
 .skill-overview {
   text-align: center;
-  padding-top: 5px;
 }
 
 .skill-row {
@@ -71,6 +71,11 @@
 
 .project-image {
   max-width: 420px;
+  transition: all 150ms ease-in-out;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 .project-description-right {

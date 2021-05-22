@@ -19,6 +19,7 @@ body {
 .nav-link {
   font-weight: 200;
   margin-left: 12px;
+  transition: all 150ms ease-in-out;
 }
 
 .active,
@@ -49,6 +50,12 @@ a {
   text-transform: uppercase;
   border-radius: 4px;
   color: black;
+  font-weight: 300;
+  transition: all 150ms ease-in-out;
+}
+
+.primary-button:hover {
+  padding: 13px 30px;
 }
 
 .secondary-button {
@@ -59,6 +66,11 @@ a {
   color: black;
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
+  transition: all 150ms ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: var(--secondary-color);
 }
 
 a:hover {
@@ -123,6 +135,7 @@ footer {
 
 .footer-github {
   color: var(--light-color);
+  transition: all 150ms ease-in-out;
 }
 
 .footer-github:hover {
