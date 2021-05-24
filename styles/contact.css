@@ -60,6 +60,11 @@ a {
   .container {
     margin-top: 0;
   }
+
+  .profile-picture {
+    max-width: 275px;
+  }
+
   .contact-image,
   .contact-info {
     text-align: center;
