@@ -28,6 +28,11 @@ body {
   color: var(--primary-color) !important;
 }
 
+.fa-home {
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
 .hero-section {
   padding: 80px 0;
   background-color: var(--primary-color);
@@ -63,10 +68,6 @@ body {
   margin: 25px 0 60px 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .primary-button {
   background-color: var(--secondary-color);
   padding: 13px 25px;
@@ -96,13 +97,29 @@ a {
   background-color: var(--secondary-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   color: black;
 }
 
-.fa-home {
-  font-size: 25px;
-  color: var(--primary-color);
+.page-intro {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.bold-intro {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.intro-text,
+.about-text {
+  text-align: center;
 }
 
 .subject-header {
