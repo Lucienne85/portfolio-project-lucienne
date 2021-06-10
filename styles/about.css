@@ -112,6 +112,12 @@ h2 {
   border: 1px solid var(--light-color);
 }
 
+.carousel-caption {
+  background-color: rgba(17, 78, 96, 0.6);
+  padding: 5px 0;
+  margin: 0;
+}
+
 .caption-title {
   font-size: 15px;
   font-weight: 400;
